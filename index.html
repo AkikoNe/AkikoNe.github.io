@@ -15,17 +15,21 @@
             </zagolovok2>
         </div>
     </div>
+    <div><p><b>Цвет панелей</b><br>
+        <button type="button" onclick="Rnd()">Изменить</button>
+    </div>
         <div>
            <p class="pic"> <img src="2.jpg" class="a"></p>
         </div>
-        <div class="MyText">
+        <div class="MyText" id="random">
             <p><b> Плюсы </b><br>1.У них есть ушки<br>
                 <br>2.У них есть хвостик<br>
                 <br>3.Хвостик еще и пушистый<br>
                 <br>4.Они любят когда их гладят<br></p>
                 <p><b> Минусы </b><br>У НИХ НЕТ МИНУСОВ<br></p>
         </div>
-        <div class="MyNeko">
+        
+        <div class="MyNeko"id="random2">
             <p><b> Краткая теория о неко </b>
                 <br>Неко девочка(яп. 猫娘 нэкомусумэ, англ. Catgirl) — девушка, обладающая кошачьими ушками 
                 (в дополнение к человеческим либо настоящими), хвостом или другими чертами семейства кошачьих,
@@ -34,15 +38,26 @@
                  а также в виртуальных интернет-сообществах, таких как Nekos в Second Life. Образ девушки-кошки 
                  также часто используется для косплея.
         </div>
+        <script src="script.js"></script>
         <div>
             <p class="neko"> <img src="neko.png" class="i"></p>
+         </div>
+         <div>
+            <p class="girl"> <img src="3.jpg" class="k"></p>
          </div>
          <div class="vopros">
             <zagolovok2>
                 Но самым сложным остается вопрос.<br>
                 Чокола или Ванилла? 
             </zagolovok2>
-    </div>
+            
+            <div class="nname"><p><b> Имя неко </b><br>
+                <input type="text" value="" id="txt">
+                <button class="btn" type="button" onclick="rename()"> Назови </button>
+            </div>
+            <div class="changen">
+                <span id="nekoname">AkikoNee</span>
+            </div>
     </div>
 </body>
 </html>

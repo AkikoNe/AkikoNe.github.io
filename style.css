@@ -6,8 +6,8 @@
     border: 10px #a508b9; 
     border-style:groove;
     padding-left: 20px;
-    padding-right:1225px;
-    padding-bottom: 380px;
+    padding-right:1210px;
+    padding-bottom: 335px;
     width: 600px;
 }
 .main{
@@ -40,7 +40,7 @@
     border-style: groove;
     font-style:italic;
     position: absolute;
-    top: 490px;
+    top: 540px;
 }
 .MyText:hover
 {
@@ -55,7 +55,7 @@
 .MyNeko{
     text-align: center;
     font-size: 110%;
-    width: 900px;
+    width: 1100px;
     background: #04afff;
     border: 8px solid #78087c;
     border-radius: 15px;
@@ -63,22 +63,47 @@
     border-style: groove;
     font-style:italic;
     position: absolute;
-    top: 100px;
-    left:800px;
+    top: 110px;
+    left:680px;
 }
 
 .neko{
     position:absolute;
-    left:900px;
+    left:710px;
     top:400px;
 }
 .vopros{
     position:absolute;
-    left:1060px;
+    left:860px;
     top:350px;
     font-size: 150%;
     color: #fd0000e0;
     text-shadow: 0 0 30px #900caa;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     
+}
+
+
+.girl{
+    position:absolute;
+    left:1550px;
+    top:549px;
+}
+
+.nname{
+    position:absolute;
+    left:740px;
+    top:-10px;
+}
+
+.changen{
+    position:absolute;
+    left:760px;
+    top:170px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 120%;
+
+}
+.changen:hover{
+    color:rgb(25, 10, 231);
 }
